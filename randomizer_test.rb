@@ -14,6 +14,6 @@ class AppTest < Minitest::Test
 
 	def test_assert_that_student_array_returns_correct_value
 		student_name = "jeremy"
-		assert_equal(["jeremy"])
+		assert_equal(["jeremy"],student_list(student_name))
 	end
 end
